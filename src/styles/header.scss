@@ -1,4 +1,7 @@
+@use "sass:color";
 @import "fonts";
+@import "colors";
+// ---------------------------
 .header-container {
   display: flex;
   flex-direction: column;
@@ -9,7 +12,8 @@
 }
 .header-title {
   padding: 30px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
+  text-shadow: 4px 4px darken($title-color, 13%);
 }
 .img-header {
   height: 60vh;

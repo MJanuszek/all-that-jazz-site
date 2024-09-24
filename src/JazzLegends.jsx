@@ -1,7 +1,7 @@
 import "./styles/legends.scss";
 
 function JazzLegends() {
-  return <div className="wrapper" id="gallery"></div>;
+  return <div className="jazz-legends" id="jazzLegends"></div>;
 }
 
 export default JazzLegends;

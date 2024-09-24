@@ -1,0 +1,14 @@
+@use "sass:color";
+@import "fonts";
+@import "colors";
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.8em;
+  padding: 30px;
+  font-family: "Matemasie", sans-serif;
+  color: $title-color;
+  text-shadow: 2px 2px darken($title-color, 60%);
+  letter-spacing: 0.15em;
+}
