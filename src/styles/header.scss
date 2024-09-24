@@ -1,7 +1,21 @@
 @import "fonts";
 .header-container {
-  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4em;
   font-family: $Matemasie;
-  font-family: $LibreBaskerville;
-  font-family: $KalniaGlaze;
+}
+.header-title {
+  padding: 30px;
+  letter-spacing: 0.1em;
+}
+.img-header {
+  height: 60vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/valentino-funghi-VRr9a2rOoBI-unsplash.jpg");
 }

@@ -10,12 +10,10 @@
 
 @media (max-width: 768px) {
   .wrapper-app {
-    border: 3px solid #418c9f;
+    /* border: 3px solid #418c9f; */
     font-size: 14px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 100vw;
   }
 }
