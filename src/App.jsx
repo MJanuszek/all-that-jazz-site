@@ -1,13 +1,13 @@
-import { useState } from "react";
 import "./App.css";
 import Header from "./Header";
 import JazzInfo from "./JazzInfo";
 import JazzLegends from "./JazzLegends";
 import Gallery from "./Gallery";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="wrapper">
+    <div className="wrapper-app">
       <Header />
       <JazzInfo />
       <JazzLegends />

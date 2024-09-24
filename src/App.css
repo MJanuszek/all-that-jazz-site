@@ -1,3 +1,21 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .wrapper-app {
+    border: 3px solid #418c9f;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
 }
