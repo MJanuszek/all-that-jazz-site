@@ -5,14 +5,32 @@ import { Link } from "react-scroll";
 
 function Navigation() {
   return (
-    <div className="nav-wrapper">
-      {" "}
+    <div className="nav-wrapper" id="nav">
+      <Link
+        activeClass="active"
+        to="nav"
+        spy={true}
+        smooth={true}
+        duration={1200}
+        className="to-top-link"
+      >
+        <img src="src/assets/up-arrow.png" alt="" className="arrow" />
+      </Link>
+      <Link
+        activeClass="active"
+        to="news"
+        spy={true}
+        smooth={true}
+        duration={1200}
+      >
+        News
+      </Link>
       <Link
         activeClass="active"
         to="jazzInfo"
         spy={true}
         smooth={true}
-        duration={500}
+        duration={700}
       >
         About
       </Link>
@@ -21,7 +39,7 @@ function Navigation() {
         to="jazzLegends"
         spy={true}
         smooth={true}
-        duration={500}
+        duration={700}
       >
         Jazz Legends
       </Link>

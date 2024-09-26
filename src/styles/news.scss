@@ -1,0 +1,15 @@
+.img-news {
+  background-image: url("../assets/darius-F8E2tks5N04-unsplash.jpg");
+  height: 50vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -11,4 +11,25 @@
   color: $title-color;
   text-shadow: 2px 2px darken($title-color, 60%);
   letter-spacing: 0.15em;
+  border-bottom: 3px solid $accent-color01;
+}
+
+.to-top-link {
+  border: 3px solid $accent-color01;
+  border-radius: 8px;
+  width: 20px;
+  height: 20px;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 80vh;
+  left: 90vw;
+  background-color: $third-color;
+}
+.arrow {
+  width: 15px;
+  height: 15px;
 }
