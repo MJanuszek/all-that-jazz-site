@@ -1,4 +1,15 @@
+@import "colors";
+@import "fonts";
+// ----
 .jazz-legends {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6vh;
+  align-items: center;
   height: 90vh;
-  background-color: #dbb4b4;
+  background-color: $background01-color;
+  font-family: "Matemasie", serif;
+  letter-spacing: 0.2em;
+  padding: 4vh;
+  text-shadow: 2px 2px darken($title-color, 16%);
 }

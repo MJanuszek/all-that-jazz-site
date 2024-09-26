@@ -17,6 +17,7 @@ function Navigation() {
         <img src="src/assets/up-arrow.png" alt="" className="arrow" />
       </Link>
       <Link
+        className="link"
         activeClass="active"
         to="news"
         spy={true}
@@ -26,6 +27,7 @@ function Navigation() {
         News
       </Link>
       <Link
+        className="link"
         activeClass="active"
         to="jazzInfo"
         spy={true}
@@ -35,6 +37,7 @@ function Navigation() {
         About
       </Link>
       <Link
+        className="link"
         activeClass="active"
         to="jazzLegends"
         spy={true}

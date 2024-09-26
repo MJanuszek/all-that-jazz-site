@@ -3,6 +3,7 @@
 @import "colors";
 
 .nav-wrapper {
+  background-color: $background02-color;
   display: flex;
   justify-content: space-evenly;
   font-size: 1.8em;
@@ -12,6 +13,10 @@
   text-shadow: 2px 2px darken($title-color, 60%);
   letter-spacing: 0.15em;
   border-bottom: 3px solid $accent-color01;
+}
+
+.link:hover {
+  color: $accent-color01;
 }
 
 .to-top-link {
@@ -28,6 +33,9 @@
   top: 80vh;
   left: 90vw;
   background-color: $third-color;
+  &:hover {
+    background-color: darken($title-color, 5%);
+  }
 }
 .arrow {
   width: 15px;

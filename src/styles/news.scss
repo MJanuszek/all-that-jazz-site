@@ -1,6 +1,9 @@
+@import "colors";
+@import "fonts";
+// ----
 .img-news {
   background-image: url("../assets/darius-F8E2tks5N04-unsplash.jpg");
-  height: 50vh;
+  height: 60vh;
   width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,4 +15,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: $background01-color;
 }

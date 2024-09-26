@@ -3,23 +3,21 @@
 @import "colors";
 // ---------------------------
 .header-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.4em;
-  font-family: $Matemasie;
-}
-.header-title {
-  padding: 30px;
-  letter-spacing: 0.15em;
-  text-shadow: 4px 4px darken($title-color, 13%);
-}
-.img-header {
-  height: 60vh;
+  height: 85vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-image: url("../assets/valentino-funghi-VRr9a2rOoBI-unsplash.jpg");
+  font-size: 1.4em;
+  font-family: $Matemasie;
+  background-color: $background02-color;
+}
+.header-title {
+  position: relative;
+  top: 20vh;
+  left: 60vw;
+  padding: 30px;
+  letter-spacing: 0.15em;
+  text-shadow: 4px 4px darken($title-color, 13%);
 }
