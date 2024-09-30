@@ -6,12 +6,28 @@
   flex-direction: column;
   padding-top: 6vh;
   align-items: center;
-  height: 90vh;
+  height: auto;
   background-color: $background01-color;
   font-family: "Matemasie", serif;
   letter-spacing: 0.2em;
   padding: 4vh;
   text-shadow: 2px 2px darken($title-color, 16%);
+}
+.wrapper {
+  border: 2px solid red;
+  display: flex;
+  flex-grow: 2;
+}
+.biogram {
+  background-color: lighten($first-color, 24%);
+  font-family: "Libre Baskerville", sans-serif;
+  text-shadow: none;
+  border-radius: 18px;
+  box-shadow: 6px 6px 5px 2px darken($title-color, 10%);
+  max-width: 60vw;
+}
+.description {
+  margin-top: 3vh;
 }
 
 .img-legends {

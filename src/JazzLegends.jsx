@@ -1,11 +1,17 @@
 import "./styles/legends.scss";
 import legends from "./legendsData";
+import VerticalTxT from "./VerticalTxT";
 
 function JazzLegends() {
   return (
     <div className="jazz-legends" id="jazzLegends">
-      <h1>Jazz Legends</h1>
-      <div className="biogram">{legends[1].description}</div>
+      <div className="wrapper">
+        <VerticalTxT text="Legends" />
+        <div className="biogram">
+          <h1>{legends[1].name}</h1>
+          <p className="description">{legends[1].description}</p>
+        </div>
+      </div>
       <div className="img-legends"></div>
     </div>
   );
