@@ -21,15 +21,26 @@
   flex-grow: 2;
 }
 .biogram {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  line-height: 1.4;
   background-color: lighten($first-color, 24%);
   font-family: "Libre Baskerville", sans-serif;
   text-shadow: none;
   border-radius: 18px;
   box-shadow: 6px 6px 5px 2px darken($title-color, 10%);
   max-width: 60vw;
+  padding: 20px;
 }
 .description {
   margin-top: 3vh;
+}
+.legends-h1 {
+  margin-left: 4vw;
+  margin-right: -9vw;
 }
 
 .img-legends {
