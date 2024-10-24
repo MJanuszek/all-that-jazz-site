@@ -1,6 +1,8 @@
+import "./styles/legends.scss";
+
 function VerticalTxT({ text }) {
   const letters = text.split("").map((letter, index) => (
-    <span key={index} style={{ display: "block" }}>
+    <span key={index} style={{ display: "block" }} className="title">
       {letter}
     </span>
   ));
